@@ -1,0 +1,182 @@
+.meme-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+ 
+.meme-info .meme-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.meme-info .meme-info-wrapper .owner-share-wrapper {
+  display: flex;
+  padding: 1em 1.5em;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 1px 1px 4px 0px #e0e0e0;
+}
+
+.meme-info .meme-info-wrapper .owner-share-wrapper a {
+  overflow: hidden;
+  margin-right: 1.5em;
+}
+
+.meme-info .meme-info-wrapper .meme-owner-wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.meme-info .meme-info-wrapper .meme-owner-wrapper img.owner-img {
+  width: 60px;
+  border: 1px dashed #5a5a5a;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.meme-info .meme-info-wrapper .meme-owner-wrapper .owner-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.6em;
+  margin-top: -2px;
+  overflow: hidden;
+}
+
+.meme-info .meme-info-wrapper .meme-owner-wrapper .owner-info p.owner-name {
+  margin-bottom: 0;
+  font-size: 1.2em;
+  color: #383838;
+  font-family: circularMedium;
+  margin-bottom: -5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.meme-info .meme-info-wrapper .meme-owner-wrapper .owner-info span.owner{
+  font-size: 1em;
+  color: #616161;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.meme-info .meme-info-wrapper .meme-owner-wrapper .owner-info span.owned-at{
+  font-size: 0.9em;
+  margin-top: -3px;
+  color: #616161;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+
+
+.meme-info .meme-info-wrapper .share-icons-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.meme-info .meme-info-wrapper .share-icons-wrapper > div {
+  display: flex;
+}
+
+.meme-info .meme-info-wrapper .share-icons-wrapper > div.upper-share-icons, .more-share-icons {
+  display: flex;
+}
+
+.meme-info .meme-info-wrapper .share-icons-wrapper > div > *, .more-share-icons > * {
+  margin: 0 3.7px;
+  cursor: pointer;
+}
+
+.meme-info .meme-info-wrapper .share-icons-wrapper .more-icon {
+  font-size: 32px;
+}
+
+.meme-info .meme-info-wrapper .share-icons-wrapper .report-meme-icon {
+  border-left: 1px solid #e0e0e0;
+  height: 32px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  margin-left: 8px;
+}
+
+.meme-info .meme-info-wrapper .share-icons-wrapper .report-meme-icon .anticon {
+  font-size: 20px;
+}
+
+.meme-info .meme-info-wrapper .creation-time p.time{
+  font-size: 1.1em;
+  margin-bottom: 0;
+  color: #3e3e3e;
+  font-family: circularMedium;
+}
+
+.meme-info .meme-img-wrapper {
+  background: #212121;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+
+.meme-info .meme-img-wrapper img.meme-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+
+.meme-info .meme-info-votes-wrapper {
+  padding: 0.1em 0.5em;
+  border-bottom: 1px dashed #cacaca;
+}
+
+.meme-info .meme-info-wrapper .auctions-wrapper {
+  padding: 1em 1.5em;
+}
+
+.meme-info .report-meme-wrapper {
+  border-top: 1px dashed #cccccc;
+  margin-top: -1em !important;
+}
+
+@media (min-width: 920px) {
+  .meme-info {
+    flex-direction: row;
+  }
+
+  .meme-info .meme-img-wrapper {
+    width: 70%;
+  }
+
+  .meme-info .meme-info-wrapper {
+    width: 30%;
+  }
+  
+  /* .meme-info .meme-info-wrapper {
+    width: 60%;
+  } */
+/* 
+  .meme-info .meme-info-votes-wrapper {
+    width: 50%;
+  } */
+}

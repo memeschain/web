@@ -1,0 +1,61 @@
+.votes-wrapper {
+    padding: 1em 0.3em;
+}
+
+.votes-wrapper button.vote-buttons {
+    width: 45%;
+    height: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+.votes-wrapper button.vote-buttons i.anticon {
+    flex-grow: 1;
+}
+
+.votes-wrapper button.vote-buttons span.title{
+    flex-grow: 2;
+    margin-left: -5px;
+}
+
+.votes-wrapper button.vote-buttons div.count{
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: -1px;
+    flex-grow: 1;
+    min-width: 1em;
+}
+
+.votes-wrapper button.vote-buttons.dank-vote div.count {
+    background-color: #1e8e3b;
+}
+
+.votes-wrapper button.vote-buttons.basic-vote div.count {
+    background: #ff5c5c;
+    color: white;
+}
+
+
+.votes-wrapper button.vote-buttons.dank-vote {
+    background: #32cf5e;
+    border: 1px solid #32cf5e;
+    color: white;
+    font-family: circularMedium;
+}
+
+.votes-wrapper button.vote-buttons.dank-vote i.anticon {
+    color: yellow;
+}
+
+.votes-wrapper button.vote-buttons.dank-vote.ant-btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none; 
+}

@@ -1,0 +1,133 @@
+.meme-info-wrapper{
+    text-align:left;
+}
+.inner-meme-info-wrapper{
+    text-align:left;
+}
+  
+.memes-loading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.meme-wrapper {
+    flex: 1 0 0%;
+}
+
+.meme-wrapper .outer-wrapper {
+    background-color: #efefef;
+    display: block;
+    width: 100%;
+    position: relative;
+    box-shadow: 1px 0px 8px 0px #00000094;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.meme-wrapper .outer-wrapper div.animated.price-animator {
+    display: block !important;
+    position: relative;
+    z-index: 9;
+}
+
+.meme-wrapper .outer-wrapper .inner-wrapper {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.meme-wrapper .outer-wrapper .inner-wrapper img.meme {
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+}
+
+.pagination-wrapper{
+    margin-left: 20rem;
+}
+
+.meme-wrapper .auction-info-wrapper {
+    position: absolute;
+    z-index: 9;
+    background: #3333339c;
+    width: 100%;
+    box-shadow: 0px 5px 10px 15px #3333339c;
+}
+
+.meme-wrapper .auction-info-wrapper .auction-price {
+    color: white;
+    background: #ff722d;
+    border-radius: 40px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    margin-top: 1em;
+    box-shadow: 0px 3px 5px 3px #44444469;
+    font-family: circularMedium;
+}
+
+
+
+
+
+.box {
+    position: relative;
+  }
+  .ribbon {
+    position: absolute;
+    left: -5px; top: -5px;
+    z-index: 10;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+  }
+  .ribbon span {
+    font-size: 12.4px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 15px;
+    left: -23px;
+    padding: 3px 0;
+    
+  }
+  .ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #79A70A;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79A70A;
+  }
+  .ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #79A70A;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79A70A;
+  }

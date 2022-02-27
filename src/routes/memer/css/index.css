@@ -1,0 +1,13 @@
+.memer-page .memer-tabs .ant-tabs-bar .ant-tabs-nav-container {
+  font-size: 1.1em;
+}
+
+@media (min-width: 992px) {
+  .memer-page .memer-tabs .ant-tabs-bar {
+    padding-left: 5em;
+  }
+  
+  .memer-page .memer-tabs .ant-tabs-bar .ant-tabs-nav-container {
+    font-size: 1.35em;
+  } 
+}

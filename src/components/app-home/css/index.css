@@ -1,0 +1,223 @@
+.route-home {
+  height: 100%;
+}
+
+.route-home .landing-slots-wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.route-home .app-headline h1 {
+  font-size: 4.5em;
+  margin-bottom: 0;
+  font-family: circularMedium;
+}
+
+.route-home .app-headline .app-headline-two-part-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.route-home .app-headline .app-headline-two-part-wrapper .text {
+  padding: 1em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 47%;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.route-home .app-headline .app-headline-two-part-wrapper .divider {
+  width: 5%;
+}
+
+.route-home .app-headline .app-headline-two-part-wrapper .divider .ant-divider-vertical {
+  height: 100%;
+  width: 5px;
+}
+
+.route-home .app-home-primary-action-wrapper button {
+  width: 75%;
+}
+
+.route-home .meme-explainer {
+  background-color: white;
+  padding: 5em;
+}
+
+.route-home .meme-explainer > div {
+  flex-wrap: nowrap;
+  margin: 0 5%;
+}
+
+.route-home .meme-explainer > div .eplainer-img-wrapper {
+  margin: 27px;
+  flex-basis: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.route-home .meme-explainer > div .eplainer-img-wrapper div.joiner {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -1.25em;
+  font-size: 3em;
+  z-index: 9;
+  color: #ff3636;
+}
+
+.route-home .meme-explainer h2 {
+  font-size: 2.5em;
+  font-family: circularMedium;
+}
+
+.route-home .meme-explainer > div .eplainer-img-wrapper p {
+  font-size: 1.5em;
+  font-family: circularMedium;
+  margin-bottom: 7px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.route-home .meme-explainer > div img.explainer {
+  border-radius: 5px;
+  max-width: 337px;
+}
+
+
+.route-home .memes-chain-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ececec;
+  text-align: center;
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.route-home .memes-chain-description .hero {
+  max-width: 75%;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  border-top: 1px solid #eaeaea;
+  background: #fbfbfb;
+}
+
+.footer-wrapper .flex-column {
+  font-size: 1em;
+}
+
+.footer-wrapper .flex-column a {
+  color: #464646;
+  border-bottom: 1px dashed #464646;
+  margin-bottom: 8px;
+}
+
+.footer-wrapper img.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-wrapper a.facebook, .footer-wrapper a.twitter {
+  font-size: 2.7em;
+}
+
+.footer-wrapper  a.facebook {
+  color: rgb(58, 89, 152);
+}
+
+.footer-wrapper .flex-column a.reddit {
+  color: rgb(253, 68, 4);
+}
+
+.footer-wrapper  a.twitter {
+  color: rgb(27, 161, 243);
+}
+
+.footer-wrapper .flex-column a.insta {
+  
+}
+
+.footer-wrapper .flex-column a.discord {
+  color: #7289DA;
+}
+
+@media (max-width: 920px) {
+  .route-home .app-headline h1 {
+    font-size: 3em;
+  }
+  
+}
+
+@media (max-width: 720px) {
+  .footer-wrapper img.logo {
+      width: 40px;
+      height: 40px;
+  }
+  .app-header-wrapper nav {
+    margin-top: 1em;
+  }
+  .app-header-wrapper .app-navigation-items:first-child {
+    margin-left: 0;
+  }
+  .route-home .memes-chain-description {
+    padding: 2em 0;
+  }
+  .route-home .app-headline p.sub-heading {
+    font-size: 1.5em;
+  }
+  .route-home .meme-explainer > div .eplainer-img-wrapper p {
+    font-size: 1em;
+  }
+
+  .route-home .meme-explainer {
+    padding: 2em 0;
+  }
+
+  .route-home .app-headline h1 {
+    font-size: 2.5em;
+  }
+
+  .landing-slots-wrapper {
+    max-height: 320px;
+  }
+
+  .app-home-primary-action-wrapper{
+    margin-top: -1em;
+    margin-bottom: 2em;
+  }
+
+  .route-home .meme-explainer>div .eplainer-img-wrapper div.joiner {
+      width: 21px;
+      height: 21px;
+      position: absolute;
+      right: -1.25em;
+      font-size: 2em;
+      z-index: 9;
+      color: #ff3636;
+  }
+
+  .footer-wrapper a.facebook, .route-home .footer-wrapper a.twitter {
+    font-size: 2em;
+  }
+  
+}

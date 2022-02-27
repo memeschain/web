@@ -1,0 +1,23 @@
+.landing-slots {
+  width: 100%;
+}
+
+.landing-slots .landing-slot-cols {
+  width: 33%;
+}
+
+.landing-slots .landing-slot-cols .landing-pattern  {
+  width: 100%;
+}
+
+.landing-slots .landing-slot-cols .landing-pattern img.landing-meme,
+.landing-slots .landing-slot-cols .landing-pattern .landing-meme-container  {
+  width: 100%;
+  margin: 5px 0; /* 1 / 4 of gutter width */
+  border-radius: 5px;
+}
+
+.landing-slots .landing-pattern {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,41 @@
+.tab-link {
+  color: #3a3a3a;
+  font-size: 1.2em;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active a {
+  color: #ff722d;
+}
+
+.marketplace-info-wrapper {
+  display: flex;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-top: 0;
+  font-family: circularMedium;
+  font-size: 1.4em;
+  color: #3a3a3a;
+}
+
+@media (min-width: 992px) {
+  .market-place-tabs .ant-tabs-bar {
+    padding-left: 5em;
+  }
+  
+  .market-place-tabs .ant-tabs-bar .ant-tabs-nav-container {
+    font-size: 1.35em;
+  }
+  
+  .marketplace-info-wrapper {
+    padding-left: 5em; 
+    padding-left: 2.5em;
+    font-size: 2em;
+  }
+
+  .tab-link {
+    font-size: 1em;
+  }
+}

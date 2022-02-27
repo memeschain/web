@@ -1,0 +1,25 @@
+.sign-in-wrapper {
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.sign-in-wrapper .signin-input {
+  height: 3.7em;
+}
+
+.sign-in-wrapper .metamask-warning .ant-alert-description {
+  font-size: 1.1em;
+}
+
+.sign-in-wrapper .profile-picture img {
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px dashed darkgrey;
+}

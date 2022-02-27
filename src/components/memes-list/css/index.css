@@ -1,0 +1,67 @@
+.memes-loading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.no-memes-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3em 1em;
+}
+
+.no-memes-wrapper .hero h1 {
+  margin-bottom: 0;
+}
+
+.memes-list-wrapper {
+  padding: 1em 0.8em;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.memes-list-wrapper > div {
+  margin-bottom: 2em;
+}
+
+.memes-list-pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-top: 0em;
+  font-size: 1.1em;
+}
+
+.memes-list-error-wrapper {
+  width: 75%;
+  margin: 0 auto !important;
+  justify-content: space-evenly;
+}
+
+
+@media (max-width: 420px) {
+  .memes-list-wrapper > .ant-col-xl-8 {
+    width: 85%;
+  }
+}
+
+@media (min-width: 420px) {
+  .memes-list-wrapper > .ant-col-xl-8 {
+    width: 45%;
+  }
+}
+
+@media (min-width: 720px) {
+  .memes-list-wrapper > .ant-col-xl-8 {
+    width: 29%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .memes-list-wrapper > .ant-col-xl-8 {
+    width: 22%;
+  }
+}
+

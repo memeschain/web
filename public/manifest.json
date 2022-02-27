@@ -1,0 +1,15 @@
+{
+  "short_name": "MemesChain",
+  "name": "MemesChain - Own your most creative memes, with the power of Blockchain and AI",
+  "icons": [
+    {
+      "src": "/public/build/favicons.ico/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/public/build/index.html",
+  "display": "standalone",
+  "theme_color": "#ff722d",
+  "background_color": "#ffffff"
+}

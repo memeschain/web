@@ -1,0 +1,86 @@
+.meme-creation-type-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 90vh;
+  align-items: center;
+}
+
+/* .meme-creation-type-wrapper .uppy-Dashboard-files li.uppy-DashboardItem {
+  width: 90%;
+  height: 95%;
+}
+
+.meme-creation-type-wrapper .uppy-Dashboard-files li.uppy-DashboardItem .uppy-DashboardItem-preview {
+  height: 100%;
+} */
+
+.meme-creation-type-wrapper .done-uploading-meme {
+  width: 100%;
+}
+
+.meme-creation-type-wrapper .duplicate-memes-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meme-creation-type-wrapper .duplicate-memes-wrapper .inner-duplicate-memes-wrapper {
+  padding: 1em 0;
+}
+
+.meme-creation-type-wrapper .duplicate-memes-wrapper div.duplicate-meme img {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.meme-creation-type-wrapper .memes-error-wrapper .report-meme-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meme-creation-type-wrapper > div {
+  width: 40%;
+  max-width: 40%;
+}
+
+.meme-creation-type-wrapper > div.create-meme-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.meme-creation-type-wrapper > div.create-meme-info p {
+  font-size: 1.25em;
+  color: #636363;
+  font-family: circularBook;
+  margin-bottom: 0.4em;
+}
+
+.meme-creation-type-wrapper .owned-meme-wrapper {
+  position: relative;
+}
+
+.meme-creation-type-wrapper .owned-meme-wrapper img {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.59);
+  border-radius: 3px;
+}
+
+.meme-creation-type-wrapper .owned-meme-wrapper .owned-meme-info {
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  background: #00000087;
+  padding: 0 0.5em;
+  border-radius: 5px 5px 0 0;
+  font-size: 1.1em;
+}
+
+.report-modal p.report-info {
+  font-size: 0.9em;
+  color: grey;
+}

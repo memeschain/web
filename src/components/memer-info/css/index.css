@@ -1,0 +1,79 @@
+.memer-info-wrapper {
+  display: flex;
+  height: 160px; /* Image hieight */
+  display: flex;
+  align-items: center;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-top: 0;
+}
+
+.meme-loading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.memer-info-wrapper .memer-avatar {
+  margin-right: 1.5em;
+}
+
+.memer-info-wrapper .memer-avatar img {
+  width: 100px;
+  height: 100px;
+}
+
+.memer-info-wrapper .memer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.memer-info-wrapper .memer-info h1.memer-name {
+  margin-bottom: 0;
+  font-size: 2.1em;
+  color: #373737;
+  font-family: circularMedium;
+}
+
+.memer-info-wrapper .memer-info .memes-owned {
+  margin-top: -7px;
+  font-size: 1.1em;
+  font-family: circularBook;
+}
+
+.memer-info-wrapper .memer-info .memes-owned strong {
+  color: black;
+}
+
+.memer-page .error-wrapper {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2em 1em 0 1em;
+}
+
+.memer-info-wrapper .memer-info a.memer-settings,
+.memer-info-wrapper .memer-info a.memer-address {
+  color: #3e3e3e;
+  border-bottom: 1px solid #f3f1ee;
+  padding-bottom: .2rem;
+  cursor: pointer;
+  -webkit-transition: border-bottom .25s,color .25s;
+  -o-transition: border-bottom .25s,color .25s;
+  transition: border-bottom .25s,color .25s;
+  font-size: 1.1em;
+}
+
+.memer-info-wrapper .memer-info a.memer-settings:hover,
+.memer-info-wrapper .memer-info a.memer-address:hover {
+  color: #2a2825;
+  border-bottom: 1px solid #82817d;
+}
+
+@media (min-width: 992px) {
+  .memer-info-wrapper {
+    padding-left: 5em; 
+  }
+}
